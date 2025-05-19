@@ -24,3 +24,5 @@ export default async function manifest(): Promise<MetadataRoute.Manifest> {
     ],
   };
 }
+
+export const revalidate = 60;
